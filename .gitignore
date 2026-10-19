@@ -1,0 +1,16 @@
+# Secrets and local env — never commit
+.env
+*.env
+.env.*
+!.env.example
+*secret*
+*token*
+*.pem
+*.key
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+__pycache__/
+node_modules/
